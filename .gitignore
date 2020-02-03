@@ -1,0 +1,8 @@
+/dist
+/node_modules
+/.vscode
+
+/config/config.json
+/.project
+
+package-lock.json

@@ -1,0 +1,32 @@
+{
+  "name": "av-converter",
+  "version": "1.0.0",
+  "description": "recursively convert all video files of one format to another, using ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && tslint -c ./tslint.json -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-meini/av-converter.git"
+  },
+  "author": "Marco Meini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco-meini/av-converter/issues"
+  },
+  "homepage": "https://github.com/marco-meini/av-converter#readme",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^13.7.0",
+    "@types/progress": "^2.0.3",
+    "ts-node": "^8.6.2",
+    "tslint": "6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "progress": "^2.0.3"
+  }
+}
